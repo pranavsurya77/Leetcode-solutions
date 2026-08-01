@@ -1,0 +1,40 @@
+name: Sync LeetCode solutions to Notion
+
+# Runs every time your extension pushes a new solution commit to master.
+on:
+  push:
+    branches: [master]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # need the previous commit to diff against
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Compute diff (find newly added files)
+        run: |
+          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            # First ever push to the branch - diff against the repo's root commit instead
+            git diff --name-status --diff-filter=A $(git rev-list --max-parents=0 HEAD) HEAD > diff.txt
+          else
+            git diff --name-status ${{ github.event.before }} ${{ github.event.after }} > diff.txt
+          fi
+          echo "----- diff.txt -----"
+          cat diff.txt
+
+      - name: Generate explanations and push to Notion
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/sync-to-notion.mjs
