@@ -15,7 +15,7 @@ const {
   OPENROUTER_API_KEY,
   NOTION_API_KEY,
   NOTION_DATABASE_ID,
-  OPENROUTER_MODEL = "deepseek/deepseek-v4-flash-latest",
+  OPENROUTER_MODEL,
   GITHUB_REPOSITORY,
 } = process.env;
 
