@@ -12,6 +12,7 @@ My Leetcode solutions
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0076-minimum-window-substring) |
 ## Sliding Window
 |  |
@@ -41,5 +42,6 @@ My Leetcode solutions
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
