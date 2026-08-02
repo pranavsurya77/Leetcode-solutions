@@ -44,4 +44,12 @@ My Leetcode solutions
 | ------- |
 | [0020-valid-parentheses](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+## Array
+|  |
+| ------- |
+| [0136-single-number](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0136-single-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
