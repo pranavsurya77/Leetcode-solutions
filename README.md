@@ -6,6 +6,7 @@ My Leetcode solutions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0001-two-sum) |
 | [0076-minimum-window-substring](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
@@ -47,6 +48,7 @@ My Leetcode solutions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0001-two-sum) |
 | [0136-single-number](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0136-single-number) |
 ## Bit Manipulation
 |  |
