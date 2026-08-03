@@ -7,6 +7,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
@@ -53,6 +54,7 @@ My Leetcode solutions
 | ------- |
 | [0001-two-sum](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0031-next-permutation) |
+| [0073-set-matrix-zeroes](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0136-single-number) |
@@ -78,4 +80,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/pranavsurya77/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
